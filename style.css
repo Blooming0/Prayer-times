@@ -1,0 +1,88 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    /* background-image: linear-gradient(to left, #c79761, #8ec7ac) !important; */
+    background-image: url('./imgs/fahrul-azmi-5K549TS6F08-unsplash.jpg');
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: small;
+}
+
+.time-prayer {
+    margin-top: 5%;
+    font-size: 400%
+}
+
+.card {
+    text-align: center;
+    height: 500px;
+    width: 18% !important;
+    background-color: rgb(42, 56, 3);
+    border-radius: 30px;
+    color: aliceblue;
+}
+
+.select {
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    background: none;
+}
+
+.select_City {
+    align-items: center;
+    height: 100px;
+    background-color: #cdcda3;
+}
+
+.select_City:hover {
+    background-color: aliceblue;
+}
+
+#Choose {
+    background-color: antiquewhite;
+    padding: 50px;
+    border-radius: 30px;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    width: 60%
+}
+
+#Choose:hover {
+    background-color: rgb(194, 221, 231);
+}
+
+.contant {
+    width: 90%;
+    margin-bottom: 100px;
+    margin-left: 10%;
+}
+
+.prayerText {
+    background-color: beige;
+    border-radius: 30px;
+    padding: 30px;
+    color: #6d6d1b;
+}
+
+#ending {
+    width: 500px;
+    padding: 30px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: antiquewhite;
+    border-radius: 10px;
+}
+
+#ending:hover {
+    background-color: #000000;
+}
